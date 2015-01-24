@@ -140,15 +140,26 @@ console.log(a);
 });
 */
 
+/*
+
+Server Cred
+
+Consumer Key (API Key)  HSh7v8VgkeJsZjktrbDtXYi1h
+Consumer Secret (API Secret)    pIVim2fLU6C9RSTKRXdQMTAo3REBgTLJGO8z1Wh8hKOJDVVFCq
+
+
+
+*/
+
 var OAuth= require('oauth').OAuth;
 
 var oa = new OAuth(
     "https://api.twitter.com/oauth/request_token",
     "https://api.twitter.com/oauth/access_token",
-    "A6x1nzmmmerCCmVN8zTgew",
-    "oOMuBkeqXLqoJkSklhpTrsvuZXo9VowyABS8EkAUw",
+    "HSh7v8VgkeJsZjktrbDtXYi1h",
+    "pIVim2fLU6C9RSTKRXdQMTAo3REBgTLJGO8z1Wh8hKOJDVVFCq",
     "1.0",
-    "http://localhost:3000/auth/twitter/callback",
+    "http://gaadikey.in:3000/auth/twitter/callback",
     "HMAC-SHA1"
 );
 app.get('/auth/twitter', function(req, res){
@@ -185,8 +196,8 @@ app.get('/auth/twitter/callback', function(req, res, next){
                     console.log(results);
                     //console.log(req);
                     var twit = new twitter({
-                        consumer_key: "A6x1nzmmmerCCmVN8zTgew",
-                        consumer_secret: "oOMuBkeqXLqoJkSklhpTrsvuZXo9VowyABS8EkAUw",
+                        consumer_key: "HSh7v8VgkeJsZjktrbDtXYi1h",
+                        consumer_secret: "pIVim2fLU6C9RSTKRXdQMTAo3REBgTLJGO8z1Wh8hKOJDVVFCq",
                         access_token_key: req.session.oauth.access_token,
                         access_token_secret: req.session.oauth.access_token_secret
                     });
