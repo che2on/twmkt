@@ -14,7 +14,7 @@ var fullname = "Chethan Thimmappa";
      // define("OAUTH_TOKEN", "15975725-YM19niB4CqLzoJqwwq5Aw3c4rrtEdSj7egF5uVTDh");
      // define("OAUTH_SECRET", "14myWOpEzYCbckvGqwZT7hMyAIgrHEspNRfYNP0gxd92j");
 
-var minutes = 2, the_interval = minutes * 60 * 1000;
+var minutes = 7, the_interval = minutes * 60 * 1000;
 setInterval(function() {
 
 	    tw_list.find().limit(1).sort({postedOn : -1} , function(err , success){

@@ -15,7 +15,7 @@ function TestApp($scope) {
     $scope.twitts = [
         {user: {screen_name: 'Test'}, text: 'Text twitt'}
     ];
-    var socket = io.connect('http://localhost:3001');
+    var socket = io.connect('http://gaadikey.in:3001');
     window.socket = socket;
     socket.on('newTwitt', function (item) {
         $scope.twitts.push(item);
