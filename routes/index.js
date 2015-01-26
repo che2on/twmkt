@@ -36,7 +36,7 @@ exports.index = function (req, res) {
             'statuses/filter',
             {track: ['MS Dhoni', 'Shikhar Dhawan',  'Rohit Sharma', 'Ajinkya Rahane',  'Robin Uthappa', 'Suresh Raina', 'Ambati Rayudu', 'Kedar Jadhav', 'Manoj Tiwary', 'Manish Pandey' ,
              'Virat Kohli', 'Wriddhiman Saha', 'Sanju Samson','R Ashwin', 'Parveez Rasool', 'Karn Sharma', 'Ravindra Jadeja','Axar Patel', 'Ishant Sharma', 'Bhuvneshwar Kumar', 'Mohammed Shami',
-              'Umesh Yadav', 'Varun Aaron', 'Dhawal Kulkarni', 'Stuart Binny', 'Mohit Sharma', 'Ashok Dinda', 'Kuldeep Yadav', 'M Vijay' 'Cricket World Cup, cricket worldcup',
+              'Umesh Yadav', 'Varun Aaron', 'Dhawal Kulkarni', 'Stuart Binny', 'Mohit Sharma', 'Ashok Dinda', 'Kuldeep Yadav', 'M Vijay', 'Cricket World Cup, cricket worldcup',
                'Sachin Tendulkar,sachin,tendulkar', 'yuvraj singh' , 'harbhajan singh', 'rahul dravid', 'australia cricket', 'india cricket','srilanka cricket', 'pakistan cricket',
 
                 'Michael Clarke', 'George Bailey', 'Pat Cummins', 'Xavier Doherty',
