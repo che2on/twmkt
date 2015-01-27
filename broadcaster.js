@@ -14,7 +14,7 @@ var fullname = "Chethan Thimmappa";
      // define("OAUTH_TOKEN", "15975725-YM19niB4CqLzoJqwwq5Aw3c4rrtEdSj7egF5uVTDh");
      // define("OAUTH_SECRET", "14myWOpEzYCbckvGqwZT7hMyAIgrHEspNRfYNP0gxd92j");
 
-var minutes = 3, the_interval = minutes * 60 * 1000;
+var minutes = 8, the_interval = minutes * 60 * 1000;
 setInterval(function() {
 
 	    tw_list.find().limit(1).sort({postedOn : -1} , function(err , success){
@@ -61,13 +61,18 @@ setInterval(function() {
 			twsentobject.fullname = fullname;
 			twsentobject.text =     status;
 			twsentobject.postedOn = new Date();
+
+            //
+
+//        AT is 15975725-SkjsxcjL7PL5B4Rl7b6Gs11M6eloaZek7naB3CrkO
+// ATS is VQZwBcJoX8KxcDx6ui3qanxX4WF64LatWFnDOR3PMFPVL
  
 			
         	var twit = new twitter({
-            consumer_key: "50yGByPjNIl2TiMt0bQbCur6q",
-            consumer_secret: "LNGPPulXEeRqkzkM9PlE14Mj1RbWUg6jN3lQBBzEMxijbfhvm7",
-            access_token_key: "15975725-YM19niB4CqLzoJqwwq5Aw3c4rrtEdSj7egF5uVTDh",
-            access_token_secret: "14myWOpEzYCbckvGqwZT7hMyAIgrHEspNRfYNP0gxd92j"
+            consumer_key: "NvB6dVZg7fdqwXvQB7T9Zo1Ee",
+            consumer_secret: "qmY56kXvIRIlM0hf25HxceEYmB5Gz5gz94Woi8AFXSneSG2nG0",
+            access_token_key: "15975725-SkjsxcjL7PL5B4Rl7b6Gs11M6eloaZek7naB3CrkO",
+            access_token_secret: "VQZwBcJoX8KxcDx6ui3qanxX4WF64LatWFnDOR3PMFPVL"
         	});
 
         	twit.updateStatus(status,
