@@ -14,7 +14,7 @@ var fullname = "Chethan Thimmappa";
      // define("OAUTH_TOKEN", "15975725-YM19niB4CqLzoJqwwq5Aw3c4rrtEdSj7egF5uVTDh");
      // define("OAUTH_SECRET", "14myWOpEzYCbckvGqwZT7hMyAIgrHEspNRfYNP0gxd92j");
 
-var minutes = 8, the_interval = minutes * 60 * 1000;
+var minutes = 5, the_interval = minutes * 60 * 1000;
 setInterval(function() {
 
 	    tw_list.find().limit(1).sort({postedOn : -1} , function(err , success){
@@ -29,20 +29,20 @@ setInterval(function() {
         		fullname = success[0].fullname;
         	     var myArray =  [
 
-	   			"@"+username+" Hi "+fullname+", Would you be interested in trying @WorldCupSync app on your phone? Displays all Worldcup match schedules. ",
-	   			"@"+username+" Hi... Do you have a windows phone?",
+	   			"@"+username+" Hey "+fullname+", Would you be interested in trying @WorldCupSync app on your phone? Displays all Worldcup match schedules. ",
+	   			"@"+username+" Hey... Do you have a windows phone?",
 	   			"@"+username+" Hello "+fullname+"... I just wanted to check if you can try @WorldCupSync app on your phone...",
 	   			"@"+username+" "+fullname+", We have developed an app for windows called as @WorldCupSync . Can you give it a try? ",
-	   			"@"+username+" "+fullname+", Hi... Who do you think would be the winner of ICC cricket world cup?",
-	   			"@"+username+" Hi Would you mind trying our exlusive cricket app @WorldCupSync on your phone? ",
-	   			"@"+username+" Hi :-) I am the developer of @WorldCupSync app... Would you like to try  the app on your phone please? ",
+	   			"@"+username+" "+fullname+", Hey... Who do you think would be the winner of ICC cricket world cup?",
+	   			"@"+username+" Hey Would you mind trying our exlusive cricket app @WorldCupSync on your phone? ",
+	   			"@"+username+" Hey :-) I am the co-developer of @WorldCupSync app... Would you like to try  the app on your phone please? ",
 	            "@"+username+" Do you mind rating our app @WorldCupSync , a windows phone app for Worldcup cricket schedule? ",
 	            "@"+username+" How are you "+fullname+ " ! Got some time to try my windows phone app @WorldCupSync?",
-                "@"+username+" Cricket World cup season has started everywhere, so we developed this tiny windows phone app @WorldCupSync. Can you try this?",
-                "@"+username+" Hi "+fullname+"! Get World Cup 2015 Schedule on your windows phone calendar using this app @WorldCupSync",
+                "@"+username+" Cricket World cup season has begun, so we developed this tiny windows phone app @WorldCupSync. Can you try this?",
+                "@"+username+" Hey "+fullname+"! Get World Cup 2015 Schedule on your windows phone calendar using this app @WorldCupSync",
                 "@"+username+" "+fullname+" :) We did a beautiful app called @WorldCupSync which puts ICC Cricket Worldcup schedule on your phone calendar. DO try :)",
-                "@"+username+" Hi "+fullname+" :-) Hope you are doing good. Would you mind trying our Worldcup schedule app @WorldCupSync on your phone?",
-                "@"+username+" Hi "+fullname+" If I can ask, Can you spare couple of minutes to check out this WC app @WorldCupSync",
+                "@"+username+" Hey "+fullname+" :-) Hope you are doing good. Would you mind trying our Worldcup schedule app @WorldCupSync on your phone?",
+                "@"+username+" Hey "+fullname+" If I can ask, Can you spare couple of minutes to check out this WC app @WorldCupSync",
                 "@"+username+" We created an app for cricket lovers. If you have a windows phone app, can you try @WorldCupSync and tell me your review?",
                 "@"+username+" Hey "+fullname+"! Windows phone developer here :-) Could you help me try and rate this app? @WorldCupSync ?",
                 "@"+username+" What's up "+fullname+"! Worldcup 2015 is around the corner... Are you going to follow this time? Favorite teams?",
@@ -51,7 +51,7 @@ setInterval(function() {
                 "@"+username+" Dear "+fullname+ ", I created this app @WorldCupSync for Windows which lists 2015 Worldcup schedule. Can you download? :-)",
                 "@"+username+" Are you using a Windows Phone "+fullname+" ?",
                 "@"+username+" "+fullname+", Would India retain the Championship? When you are free can you check 2015 World cup schedule using this app @WorldCupSync ?",
-                "@"+username+" :-) Do try our windows phone app @WorldCupSync when you get sometime for cricket :-) Thanks!"
+                "@"+username+" :-) Do try our windows phone app @WorldCupSync when you get sometime for cricket :-) Thank you!!!!!"
 	   		 ];
 
 	   		var newArray = shuffle(myArray);
