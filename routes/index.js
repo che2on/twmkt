@@ -52,7 +52,7 @@ exports.index = function (req, res) {
                  'Angelo Mathews', 'Tillakaratne Dilshan', 'Kumar Sangakkara', 'Mahela Jayawardene', 'Lahiru Thirimanne', 'Dinesh Chandimal', 'Dimuth Karunaratne', 
                  'Jeevan Mendis', 'Thisara Perera', 'Suranga Lakmal', 'Lasith Malinga', 'Dhammika Prasad', 'Nuwan Kulasekara', 'Rangana Herath','Sachithra Senanayak',
 
-                 'india' , 'cricket', 'batting', 'wicket keeping', 'highest score, batsman', 'toss, cricket', 'world record, cricket', 'bowling, cricket'. 't20 cricket'
+                 'india' , 'cricket', 'batting', 'wicket keeping', 'highest score, batsman', 'toss, cricket', 'world record, cricket', 'bowling, cricket', 't20 cricket'
 
                ] },
           // {track: ['gaadikey']},
