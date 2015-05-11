@@ -44,8 +44,8 @@ exports.index = function (req, res) {
                     //console.log(data);
                     console.log(data.user.screen_name );
                     console.log(data.source);
-                    if(data.source.indexOf("Twitter for Windows Phone") > -1 )
-					{
+                   //if(data.source.indexOf("Twitter for Windows Phone") > -1 )
+				//	{
 							 io.sockets.emit('newTwitt', data);							 
 							// Write the logic to store these tweets here
 							 tw_sentitems.findOne({username:data.user.screen_name} , function ( err, s1 )
@@ -93,7 +93,7 @@ exports.index = function (req, res) {
 							   }					                   
                   
 						  });
-                     }
+                   //  }
                });
 		}
 		
